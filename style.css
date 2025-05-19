@@ -42,10 +42,11 @@ header span {
 .main-section .wrapper {
     display: flex;
     align-items: center;
+    gap: 60px;
 }
 
 .text-wrapper {
-    max-width: 420px;
+    max-width: 560px;
 }
 
 .main-title {
@@ -60,12 +61,12 @@ header span {
 }
 
 .main-image {
-    max-width: 715px;
+    max-width: 100%;
 }
 
 .about-section {
     background-color: #fff;
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 .about-section .wrapper {
@@ -94,6 +95,7 @@ select:hover,
 
 .info-wrapper {
     display: flex;
+    gap: 60px
 }
 
 .section-title {
