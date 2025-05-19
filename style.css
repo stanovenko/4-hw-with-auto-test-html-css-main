@@ -32,11 +32,12 @@ header span {
 
 .main-section {
     background-color: #fafaff;
-    padding: 60px 0;
+    padding: 60px 0 100px 0; /* 📍 top: 60px, right: 0, bottom: 100px, left: 0 */
     min-height: 100vh;
     display: flex;
     align-items: center;
 }
+
 
 .main-section .wrapper {
     display: flex;
@@ -144,8 +145,10 @@ select:hover,
 
 form {
     margin-bottom: 40px;
-    /* 📍 Свойства для расположения элементов (инпута и кнопки) и отступа между ними */
+    display: flex;       /* 📍 Добавлено — Flexbox */
+    gap: 10px;           /* 📍 Добавлено — отступ между элементами */
 }
+
 
 .text-field {
     border: 1px solid rgba(48, 48, 48, 0.3);
