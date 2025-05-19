@@ -253,7 +253,7 @@ footer {
     }
 
     .main-title {
-        front-size: 36px;/* 📍 Размер шрифта */
+        font-size: 36px;/* 📍 Размер шрифта */
     }
 
     .about-section .wrapper,
